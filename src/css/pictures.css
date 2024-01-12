@@ -1,0 +1,42 @@
+.location {
+  position: relative;
+}
+
+.bg__pic {
+  width: 18.75rem;
+  height: 11.875rem;
+  border-radius: 0.1875rem;
+}
+
+.wrapper {
+  /* border: 2px solid red; */
+  padding-top: 2.19rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  position: absolute;
+  top: 6rem;
+}
+
+.person__pic {
+  width: 2.1875rem;
+  height: 2.1875rem;
+  border-radius: 0.25rem;
+}
+
+.name__desc {
+  color: #fff;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1875rem;
+}
+
+.date__desc {
+    color: #FFF;
+font-size: 0.8125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.125rem; 
+}

@@ -1,0 +1,147 @@
+.content__position {
+  position: relative;
+}
+
+.picture {
+  width: 50rem;
+  height: 20.625rem;
+}
+
+.position {
+  position: absolute;
+  top: 10rem;
+  left: 3.75rem;
+}
+
+.person {
+  display: flex;
+  gap: 0.88rem;
+}
+
+.person__img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+}
+
+.person__name {
+  margin-bottom: 0.12rem;
+  color: #fff;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1875rem;
+}
+
+.date {
+  color: #fff;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1875rem;
+}
+
+.description {
+  width: 29.375rem;
+  margin-top: 1.25rem;
+  color: #fff;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1875rem;
+}
+
+.title__desc {
+  width: 50rem;
+  padding: 2.19rem 3.75rem;
+  background-color: #fff;
+}
+
+.font__desc {
+  color: #333;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+
+.style__btn {
+  background-color: #fff;
+  color: #8d4fdb;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+}
+
+@media (max-width: 920px) {
+  .picture {
+    width: 35rem;
+    height: 14.43rem;
+  }
+
+  .position {
+    top: 6rem;
+  }
+
+  .title__desc {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .picture {
+    width: 25.5rem;
+    height: 10.1rem;
+  }
+
+  .title__desc {
+    width: 25.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    width: 20rem;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+  }
+
+  .position {
+    top: 3rem;
+  }
+
+  .title__desc {
+    padding: 1.75rem 1.75rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .person {
+    display: none;
+  }
+
+  .picture {
+    width: 16.57rem;
+    height: 6.5rem;
+  }
+
+  .title__desc {
+    width: 16.57rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+    width: 13rem;
+    line-height: 1.2rem;
+    margin-top: 0.75rem;
+  }
+
+  .position {
+    top: 2rem;
+    left: 1.75rem;
+  }
+
+  .title__desc {
+    padding: 1.75rem 1.75rem;
+  }
+}
