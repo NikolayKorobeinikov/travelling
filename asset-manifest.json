@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/travelling/static/css/main.bb304864.css",
+    "main.js": "/travelling/static/js/main.7522f482.js",
+    "static/media/map.png": "/travelling/static/media/map.57bd67e693eb7c2174a6.png",
+    "static/media/lake.png": "/travelling/static/media/lake.143912780490d4c2f2c5.png",
+    "static/media/mount.png": "/travelling/static/media/mount.2087c593a4b52d8c1b7e.png",
+    "static/media/city.png": "/travelling/static/media/city.d99f9e9d75d0e9685e83.png",
+    "static/media/sea.png": "/travelling/static/media/sea.e971d331f44c14ce6c6b.png",
+    "static/media/small_mount.png": "/travelling/static/media/small_mount.633ce2c42e8489f38a73.png",
+    "index.html": "/travelling/index.html",
+    "main.bb304864.css.map": "/travelling/static/css/main.bb304864.css.map",
+    "main.7522f482.js.map": "/travelling/static/js/main.7522f482.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb304864.css",
+    "static/js/main.7522f482.js"
+  ]
+}
